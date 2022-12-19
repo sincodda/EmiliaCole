@@ -1,0 +1,26 @@
+*{  /* el (*)es un selector universla que afecta a todas la etiquetas */
+    margin: 0;/* el margin es el espacio entre elementos contiguo superior izquierdo derecho  */
+}
+body {
+    font-family: 'open sans';
+
+}
+a {
+    text-decoration: none; /* decoracion de texto */
+    color: black;
+}
+li {
+    list-style: none; /* todas las li le sacamos el estilo de lista(sin viñetas) */
+}
+ul, ol {
+    padding: 0;/* el pading es un espacio interno de ese elemento */
+}
+
+h1{
+    font-family: "Raleway",sans-serif;/* tipo de letra */
+    font-weight: 700;
+    font-size: 75px;                   /* tamañano de fuente */
+    text-transform: uppercase;         /* todo en mayuscula */
+
+}
+

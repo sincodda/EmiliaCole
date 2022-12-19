@@ -1,0 +1,11 @@
+.index__header{/* con el (.) es un selector que esta haciendo referencia a una clase */
+    margin-left: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.index__header__nav--menu{
+    line-height: 30px;
+}
+.index__header__nav--menu li a{
+    color: gray;
+}
