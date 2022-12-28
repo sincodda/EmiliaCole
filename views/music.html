@@ -10,27 +10,30 @@
     <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 
-<body id="inicio"> 
-    <header>
-        <nav>
+<body id="inicio" class="music"> 
+    <header class="header">
+        <nav class="header__nav">
             <!-- ul se utiliza para hacer una lista(lista desordenanda) donde cada elemento es un li -->
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/Music">Music</a></li>
-                <li><a href="/contact">contact</a></li>
-            </ul>
-            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://open.spotify.com/"><i class="fa-brands fa-spotify"></i></a>
-            <a href="https://www.apple.com/la/"><i class="fa-brands fa-apple"></i></a>
-            <a href="https://www.amazon.com/-/es/"><i class="fa-brands fa-amazon"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-        </nav>
-    </header>
-    <main>
+                <ul class="header__nav--menu">
+                    <li><a href="/">| Home</a></li>
+                    <li><a href="/about">| About</a></li>
+                    <li><a href="/Music">| Music</a></li>
+                    <li><a href="/contact">| contact |</a></li>
+                </ul>
+                <div class="header__nav--redes">
+                    <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://open.spotify.com/"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://www.apple.com/la/"><i class="fa-brands fa-apple"></i></a>
+                    <a href="https://www.amazon.com/-/es/"><i class="fa-brands fa-amazon"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              
+           </nav>
+      </header> 
+    <main class="music__main">
         <h5>Direct links</h5>
-        <nav>
+        <nav class="music__main__nav">
             <!-- navegacion interna de la pagina -->
             <ul>
                 <li><a href="#album">Album</a></li>
@@ -39,9 +42,9 @@
             </ul>
         </nav>
         <!-- caja de los albunes -->
-        <section>
+        <section class="music__main__section">
             <!-- caja albunes -->
-            <article id="Album">
+            <article id="Album" class="music__main__section__article">
                 <h3>Album<br>twist in my reality</h3><!-- subtitulo -->
                 <img src="/images/emilia-play-list.png" alt="" width="640"><!-- imagen // con -width- modificamos el tamaño de la imagen -->
 
@@ -56,9 +59,9 @@
             </article>
         </section>
         <!-- caja para los videos -->
-        <section>
+        <section class="music__main__section">
             <!-- caja de videos -->
-            <article id="Organic">
+            <article id="Organic" class="music__main__section__article">
                <h3>video <br>Organic Love</h3> 
             <iframe src="https://player.vimeo.com/video/135166028" width="640" height="360" frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><!-- Aca va el video -->
@@ -72,7 +75,7 @@
             <a href="#inicio">Go Top</a><!-- ancla -->
             </article>
              <!-- caja de videos -->
-            <article id="street">
+            <article id="street"  class="music__main__section__article">
                 <h3>video <br>Street ligth</h3> 
             <iframe src="https://player.vimeo.com/video/134861419" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><!-- Aca va el video -->
             <div>

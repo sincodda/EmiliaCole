@@ -1,4 +1,5 @@
-:root {
-    --tipografiaTitulo : 'Relay';
-    --tipografiaGeneral : 'Open Sanas';
+:root {/* selector raiz */
+    --tipografiaTitulos : Raleway, sans-serif;
+    --tipografiaGeneral : 'Open Sans';
+    --colorVerde : #44a391;
 }
